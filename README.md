@@ -20,7 +20,7 @@ In this competition I mainly focussed on feature extraction. There were no direc
 1. Test set is also created the same way as above.
 2. Used Xgboost algorithm to predict the probability if the pmid's are related are not. Used AUC as the loss function and a learning rate of 0.05.
 3. Selected a base probability of 0.12 through trial and error based on the scores I got from the public leaderboard
-4. Those articles which didnt have even one record with that probability will be retried with 1/2 of the base probability. This is made recursive until I got all the predictions or reach a very low probability. If there were still some articles left the reference list is made empty. Not sure if this is the best approach, tried this to avoid too much noise getting into prediction and also to have the necessary articles in the list.
+4. Those articles which didnt have even one record with that probability will be retried with (probability/1.5). This is made recursive until I got all the predictions or reach a very low probability. If there were still some articles left the reference list is made empty. Not sure if this is the best approach, tried this to avoid too much noise getting into prediction and also to have the necessary articles in the list.
 
 # Things that worked/didn't
 ## Worked
