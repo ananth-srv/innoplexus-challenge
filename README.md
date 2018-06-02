@@ -30,7 +30,8 @@ In this competition I mainly focussed on feature extraction. There were no direc
 
 ## Did not work
 1. Lemmatization of words did not help much.
-2. Somehow five fold Xgboost gave a lesser score, so went with just 1 fold
+2. Using only noun and verbs for distance calculation.
+3. Somehow five fold Xgboost gave a lesser score, so went with just 1 fold
 
 ## Things that I wanted to try but couldn't
 1. Semantic distance of the string columns.
