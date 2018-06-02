@@ -1,4 +1,4 @@
-# innoplexus-challenge
+# Innoplexus-challenge
 
 I am sharing my approach to the Innoplexus-Challenge hosted by Analytics Vidhya https://datahack.analyticsvidhya.com/contest/innoplexus-hiring-hackathon/ Glad that I made it up to the top of the leaderboard. Thank you so much for this opportunity guys to test our knowledge on machine learning. 
 
